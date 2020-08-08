@@ -1,7 +1,13 @@
 # wordexpand 百度拓词工具
  
+## 安装
+```shell script
+  go get github.com/kevin-five/wordexpand@v0.0.1
+```
+
+## 案例 
 总共两个工具
-1. 通过百度搜索推荐词拓词，拓词效果还可以，但是有的词相关性不好，例子：
+1. 通过百度搜索推荐词拓词，拓词个数还可以，但是有的词相关性不好，例子：
 ```go
 
 package main

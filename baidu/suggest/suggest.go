@@ -87,7 +87,7 @@ func PCExpand(word string) ([]string, error) {
 	req.Header.Add("Sec-Fetch-Mode", "cors")
 	req.Header.Add("Sec-Fetch-Dest", "empty")
 	req.Header.Add("Accept-Language", "en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,zh-TW;q=0.6")
-
+	
 	res, err := client.Do(req)
 	if err != nil {
 		return nil, err
